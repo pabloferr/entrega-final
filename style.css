@@ -1,0 +1,38 @@
+body{
+    background: url(img/fondopantalla2.jpg);
+}
+
+.titulo{
+    font-size: 4rem;
+    background-color: red;
+}
+
+h1{
+    text-align: center;
+}
+.cartitas2{
+  display: flex;
+  justify-content: space-around;
+  text-align: center; 
+  
+}
+
+h3{
+    color: red;
+    font-family: 'Vina Sans', sans-serif;
+    text-align: center;
+    border: 2px;
+}
+
+.p{
+   font-size: 2rem;
+   color: wheat;
+   font-family: 'Oswald', sans-serif;
+   font-family: 'Poppins', sans-serif;
+   font-family: 'Vina Sans', sans-serif;
+}
+
+.barra{
+    color: blue;
+    font-family: 'Open Sans', sans-serif;
+}
