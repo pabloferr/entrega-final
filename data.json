@@ -1,0 +1,21 @@
+[
+
+    {
+        "id":1,
+        "producto": "pleystation 5",
+        "precios": "$300.000",
+        "cuotas": "6 cuotas sin interes de $50.000"
+    },
+    {
+        "id":2,
+        "producto": "teclado gamer",
+        "precios": "$25.000",
+        "cuotas": "4 cuotas sin interes de $6.250"
+    },
+    {
+        "id":3,
+        "producto": "silla gamer",
+        "precios": "$120.000",
+        "cuotas": "6 cuotas sin interes de $20.000"
+    }
+] 

@@ -66,7 +66,6 @@ cartas.forEach((cartas)=>{
 
 function comprar(carrito){
     console.log (carrito)
-    alert("compra confirmada")
 }
 
 const form = document.getElementById ("usuario")
@@ -90,12 +89,17 @@ function crearUsuariov (e){
 
 setTimeout(() =>{
   console.log("Producto: PLAYSTATION 5, precio: $300.000, cuotas: 6 cuotas sin interes de $50.000")
-}, 2000);
+}, 3000);
 
 setTimeout(() =>{
   console.log("Producto TECLADO GAMEER, precio: $25.000, cuotas: 4 cuotas sin interes de $6.250 ")
-},3000)
+},4000)
 
 setTimeout(() =>{
   console.log("Producto: SILLA GAMER, precio: $120.000, cuotas: 6 cuotas sin interes de $20.000 ")
-},4000)
+},5000)
+
+
+fetch("https://jsonplaceholder.typicode.com/posts")
+.then(response => response.json())
+.then(response => console.log(response))
